@@ -3,8 +3,10 @@
 Google Search (SERP) data in Python: organic results, **AI Overview with its cited sources**, People Also Ask, News, Images, Local, Autocomplete and Google Shopping, through the [CrawlerData API](https://crawlerdata.com).
 
 ```bash
-pip install crawlerdata
+pip install https://github.com/CrawlerData/crawlerdata-sdk/releases/download/v0.1.0/crawlerdata-0.1.0-py3-none-any.whl
 ```
+
+(PyPI publishing is coming; this installs the same package from the GitHub release.)
 
 Create an API key at [app.crawlerdata.com](https://app.crawlerdata.com) (new accounts with a verified work email get 50 free credits). One request is one credit; failed requests are not charged.
 

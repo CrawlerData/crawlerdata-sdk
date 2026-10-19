@@ -4,8 +4,10 @@ Small clients for the [CrawlerData API](https://crawlerdata.com): Google Search 
 
 | Language | Install | Docs |
 |---|---|---|
-| Python | `pip install crawlerdata` | [python/](python/) |
-| Node.js | `npm install crawlerdata` | [node/](node/) |
+| Python | `pip install https://github.com/CrawlerData/crawlerdata-sdk/releases/download/v0.1.0/crawlerdata-0.1.0-py3-none-any.whl` | [python/](python/) |
+| Node.js | `npm install https://github.com/CrawlerData/crawlerdata-sdk/releases/download/v0.1.0/crawlerdata-0.1.0.tgz` | [node/](node/) |
+
+PyPI and npm publishing are coming; these install the same packages from the [GitHub release](https://github.com/CrawlerData/crawlerdata-sdk/releases/tag/v0.1.0).
 
 ```python
 from crawlerdata import CrawlerData
