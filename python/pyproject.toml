@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "crawlerdata"
+version = "0.1.0"
+description = "Google Search (SERP), AI Overview, News, Images, Local, Autocomplete and Google Shopping as JSON, through the CrawlerData API."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = ["requests>=2.25"]
+keywords = ["serp", "serp api", "google search api", "ai overview", "google shopping", "scraper", "seo"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+
+[project.urls]
+Homepage = "https://crawlerdata.com"
+Documentation = "https://crawlerdata.com/apis/google-search-api"
+Source = "https://github.com/CrawlerData/crawlerdata-sdk"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/crawlerdata"]

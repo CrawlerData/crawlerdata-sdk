@@ -1,0 +1,17 @@
+{
+  "name": "crawlerdata",
+  "version": "0.1.0",
+  "description": "Google Search (SERP), AI Overview, News, Images, Local, Autocomplete and Google Shopping as JSON, through the CrawlerData API.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["serp", "serp api", "google search api", "ai overview", "google shopping", "scraper", "seo"],
+  "license": "MIT",
+  "homepage": "https://crawlerdata.com",
+  "repository": { "type": "git", "url": "git+https://github.com/CrawlerData/crawlerdata-sdk.git", "directory": "node" },
+  "bugs": { "url": "https://github.com/CrawlerData/crawlerdata-sdk/issues" }
+}
