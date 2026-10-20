@@ -1,0 +1,30 @@
+{
+  "name": "crawlerdata-ai-sdk",
+  "version": "0.1.0",
+  "description": "Vercel AI SDK tools for Google Search (SERP) with AI Overview, News, Images, Local and Autocomplete, through the CrawlerData API.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "default": "./dist/index.js" } },
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "ai": "^5.0.0 || ^6.0.0 || ^7.0.0",
+    "zod": "^3.25.0 || ^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ai": "^7.0.0",
+    "typescript": "^5.6.0",
+    "zod": "^4.0.0"
+  },
+  "keywords": ["ai-sdk", "vercel", "tool", "serp", "google search", "ai overview", "web search", "agents"],
+  "license": "MIT",
+  "homepage": "https://crawlerdata.com/integrations/vercel-ai-sdk",
+  "repository": { "type": "git", "url": "git+https://github.com/CrawlerData/crawlerdata-sdk.git", "directory": "ai-sdk" },
+  "bugs": { "url": "https://github.com/CrawlerData/crawlerdata-sdk/issues" }
+}
